@@ -16,16 +16,20 @@ Clone this repository and for each directory I will explain how to start step by
 ## IOS (React Native)
 
 Since the server is not hosted you have to manually type the local IP address in the app.js of the machine running the NodeJS server
-
 In line 6 in [App.js](./ios/App.js)
 
 ```javascript
 const serverURL = "http://<IP ADDRESS HERE>:3000/"; 
 ```
+
+also you will need to install expo go on the physical phones from App store / play store to run the app 
+
+
 After that follow these steps
 
 - Open a terminal in the directory and run npm install
 - run `expo start` this will open a browser window where you can scan the QR code using any phone (Android/IOS)
+- Android has Scan QR feature inside the expo app while the IOS doesn't and will need a QR scanner app or you can open the link given by the server page in any browser
 
 
 ## Android Native
