@@ -1,0 +1,2 @@
+rootProject.name = "Minly Native"
+include ':app'
