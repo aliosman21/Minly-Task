@@ -30,8 +30,4 @@ After that follow these steps
 
 ## Android Native
 
-- Open android studio go to File -> New -> Project from Version Control
-- Choose Git in the pop up menu & give it the URL then press clone
-
-
 
