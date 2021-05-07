@@ -29,5 +29,17 @@ After that follow these steps
 
 
 ## Android Native
+- Clone the repository
+- Open android studio
+- Go to File -> New -> Import project
+- Choose the project directory 
+- Then build & Run 
 
 
+# Endpoints
+
+If you wanted to test it using postman these are the endpoints
+
+- (GET) Getting the images names `http://localhost:3000/` response is an array of strings where you can locate the file names served statically by the server
+- (POST) on `http://localhost:3000/api/upload` using `FormData` with `KEY`: photo and `value` [The image being uploaded]
+- The server connects with each client using websocket so when a client uploads an image it sends a signal for all clients to call again to get the new images
